@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "fibomacci",
+            "request": "launch",
+            "mainClass": "fibomacci",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
+            "name": "divicion",
+            "request": "launch",
+            "mainClass": "divicion",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
+            "name": "multiplicacion",
+            "request": "launch",
+            "mainClass": "multiplicacion",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "estructura-de-datos_42fec477"
+        }
+    ]
+}
