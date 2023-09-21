@@ -9,16 +9,12 @@ public class caificacionMenor {
     public static double calificacionMenor(double menor){
         double calificacion = Double.parseDouble(JOptionPane.showInputDialog("Ingresa la calificación"));
 
-        if (calificacion < menor) {
+        if (calificacion < menor)
             menor = calificacion;
-        }
 
-        int ask = JOptionPane.showConfirmDialog(null, "¿Deseas ingresar una nueva calificación?");
-
-        if(ask == 0){
+        if(JOptionPane.showConfirmDialog(null, "¿Deseas ingresar una nueva calificación?") == 0)
             return calificacionMenor(menor);
-        }else {
+        else 
             return menor;
-        }
     }
 }
