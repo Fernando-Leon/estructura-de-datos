@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "caificacionMenor",
+            "request": "launch",
+            "mainClass": "caificacionMenor",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
+            "name": "SumaSerie",
+            "request": "launch",
+            "mainClass": "SumaSerie",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
             "name": "fibomacci",
             "request": "launch",
             "mainClass": "fibomacci",
