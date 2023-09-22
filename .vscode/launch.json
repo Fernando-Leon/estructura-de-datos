@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "inversionRecursiva",
+            "request": "launch",
+            "mainClass": "inversionRecursiva",
+            "projectName": "estructura-de-datos_42fec477"
+        },
+        {
+            "type": "java",
             "name": "caificacionMenor",
             "request": "launch",
             "mainClass": "caificacionMenor",

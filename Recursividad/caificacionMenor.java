@@ -1,7 +1,6 @@
 import javax.swing.JOptionPane;
 
 public class caificacionMenor {
-    
     public static void main(String[] args) {
         System.out.println(calificacionMenor(1000));
     }
